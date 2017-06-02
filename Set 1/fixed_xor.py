@@ -5,8 +5,10 @@ from sys import argv
 
 def main():
     if len(argv) == 3:
+        # decode hex strings
         hexData1, hexData2 = map(unhexlify, argv[1:])
         
+        # XOR the characters together and convert to hex string
         xorData = ''.join(chr(c ^ c1) for c, c1 in zip(hexData1, hexData2)).encode('utf-8')
         xorHex = hexlify(xorData).decode('utf-8')
 
