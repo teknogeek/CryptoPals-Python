@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from binascii import unhexlify
-from string import ascii_uppercase, punctuation
+from string import ascii_uppercase
 from sys import argv
 
 # Index of Coincidence for English
