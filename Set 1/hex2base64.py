@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from binascii import unhexlify
 from base64 import b64encode
 from sys import argv

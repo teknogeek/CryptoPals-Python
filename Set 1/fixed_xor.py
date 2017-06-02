@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from binascii import hexlify, unhexlify
 from sys import argv
 
